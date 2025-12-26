@@ -10,3 +10,5 @@ echo "Starting Streamlit..."
 streamlit run app.py \
   --server.port=$PORT \
   --server.address=0.0.0.0
+git config core.autocrlf false
+
